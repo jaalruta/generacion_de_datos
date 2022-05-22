@@ -28,15 +28,17 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 
 ### A-priori
 
-1. Login : Todos los campos vacios
-2. Login : Nombre lleno , y demas campos vacios
-3. Login : Nombre lleno , y contraseña llena (ambos incorrectos)
-4. Login : Nombre lleno , y contraseña llena (ambos correctos)
-5. Login : contraseña llena y nombre vacio
-6. Login : Limite inferior campo nombre
-7. Login : Limite superior campo nombre
-8. Login : Limite superior campo contraseña
-9. Login : Limite inferior campo contraseña
+1. Login : Todos los campos con numeros
+2. Login : Nombre diligenciado y contraseña diligenciada (ambos incorrectos)
+3. Login : Nombre diligenciado y contraseña vacia
+4. Login : Nombre vacio y contraseña diligenciada
+5. Login : Todos los campos vacios
+6. Login : Todos los campos con un solo caracter
+7. Login : Todos los campos con un solo numero
+8. Login : Todos los campos con dos numeros
+9. Login : Todos los campos con dos caracteres
+10. Login : Todos los campos con un numero y un caracter
+
 
 
 ### Seudo aleatorias
@@ -67,6 +69,21 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 25. members : Correo con valor valido ,label con valor valido ,nota con valor valido 
 26. members : Nombre con valor valido, correo con valor valido ,label con valor valido , nota con valor valido
 27. members : Nombre con valor no valido, correo con valor  no valido,label con valor no valido, nota con valor no valido
+Los siguientes 13 escenarios estan en el archivo "1_TestPseudoLoginCon13Escenarios.spec.js":
+28. Login: Intento de login inválido, con usuario y contraseña aleatoria - datetime
+29. Login: Intento de login inválido, con usuario y contraseña aleatoria - base64
+30. Login: Intento de login inválido, con usuario email aleatorio y contraseña pass aleatoria
+31. Login: Intento de login inválido, con usuario y contraseña aleatoria - naughty_string
+32. Login: Intento de login inválido, con usuario y contraseña aleatoria - URL
+33. Login: Intento de login inválido, con usuario y contraseña aleatoria - chine
+34. Login: Intento de login inválido, con usuario y contraseña aleatoria - hex color
+35. Login: Intento de login inválido, con usuario y contraseña aleatoria - encrypt
+36. Login: Intento de login inválido, con usuario y contraseña aleatoria - guid 
+37. Login: Intento de login inválido, con usuario y contraseña aleatoria - binomial 
+38. Login: Intento de login inválido, con usuario y contraseña aleatoria - parrafos
+39. Login: Intento de login inválido, con usuario y contraseña aleatoria - time 
+40. Login: Intento de login inválido, con usuario y contraseña aleatoria - isbn
+
 
 
 ### Aleatorias
@@ -103,9 +120,15 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 31. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
 32. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
 33. Configuracion-titulo,descripcion : Ambos campos llenos
-34. Configuración-cambiar nombre : Campos llenos, válido
-35. Configuración-cambiar nombre : Campo vacio, válido
-
+Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":
+34. Login: Visita el formulario de login y lo llena con datos inválidos
+35. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
+36. Login: Clic en el botón de autenticar con un formulario vacío
+37. Login: Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real
+38. Login: Visita el formulario de login y llena solo un campo
+39. Login: Visita el formulario de login y lo llena con imágenes
+40. Login: Visita el formulario de login y lo llena caracteres largos
+ 
 
 
 
