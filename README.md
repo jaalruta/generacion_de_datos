@@ -102,7 +102,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 30. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
 31. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
 32. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
-33. Configuracion-titulo,descripcion : Ambos campos vacios
+33. Configuracion-titulo,descripcion : Ambos campos llenos
 
 
 
