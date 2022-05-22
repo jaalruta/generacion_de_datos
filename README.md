@@ -123,16 +123,18 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 34. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
 35. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
 36. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
-37. Configuracion-titulo,descripcion : Ambos campos llenos<br>
-38. configuración-cambiar nomber: campo lleno, válido. 
+37. Configuracion-titulo,descripcion : Ambos campos llenos
+38. configuración-cambiar nomber: campo numérico, válido. 
+39.  configuración-cambiar nomber: caracteres especiales, válido.
+40. configuración-cambiar nomber: campo lleno, válido.<br> 
 <i>Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":</i>
-39. Login: Visita el formulario de login y lo llena con datos inválidos
-40. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
-41. Login: Clic en el botón de autenticar con un formulario vacío
-42. Login: Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real
-43. Login: Visita el formulario de login y llena solo un campo
-44. Login: Visita el formulario de login y lo llena con imágenes
-45. Login: Visita el formulario de login y lo llena caracteres largos
+41. Login: Visita el formulario de login y lo llena con datos inválidos
+42. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
+43. Login: Clic en el botón de autenticar con un formulario vacío
+44. Login: Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real
+45. Login: Visita el formulario de login y llena solo un campo
+46. Login: Visita el formulario de login y lo llena con imágenes
+47. Login: Visita el formulario de login y lo llena caracteres largos
  
 
 
