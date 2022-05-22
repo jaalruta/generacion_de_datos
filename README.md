@@ -171,17 +171,27 @@ cypress open
 
 Se abrirá la siguiente interfaz
 
-![Captura de pantalla 2022-05-05 a la(s) 10 55 31 p  m](https://user-images.githubusercontent.com/98671337/167064359-f65996fc-0d57-435c-b379-aa8b2868c936.png)
+![Captura de pantalla 2022-05-22 a la(s) 3 39 44 p  m](https://user-images.githubusercontent.com/98671337/169714928-54cd9956-1993-4b95-9478-a8b54915fa6f.png)
 
 
-Debemos seleccionar la carpeta cypress del directorio con la version de ghost que queremos probar obtenidas del repositorio clonado
-![Captura de pantalla 2022-05-05 a la(s) 10 57 06 p  m](https://user-images.githubusercontent.com/98671337/167064499-af4e49ab-760b-4bc8-a9fd-35e4c9069dbf.png)
 
-En este punto se nos permitirá ejecutar los test, para los test sobre Ghost debemos buscar la sección ***3-Ghost***
+En este punto se nos permitirá ejecutar los test, podremos ingresar a cualquier carpeta y ejecutar los test de cada estrategia.
 
-![Captura de pantalla 2022-05-05 a la(s) 10 59 38 p  m](https://user-images.githubusercontent.com/98671337/167064690-1d33a3db-8faf-4334-9dcd-4e6d5035dff6.png)
+## Descripción de las estrategias usadas 
 
-Luego podremos seleccionar cualquier test del listado , se abrirá un navegador y se ejecutara la prueba
+### A-priori
 
-![Captura de pantalla 2022-05-05 a la(s) 11 00 51 p  m](https://user-images.githubusercontent.com/98671337/167064809-25649edc-bdf5-4f3c-b95c-e08eb8ab2f3f.png)
+Para esta estrategia de pruebas se crearon varias archivos .JSON lo cuales se encuenta en la carpeta DataPool de la carpeta a-priori  de integrations , dependiendo del escenario se leen estos datos y se realiza la ejecución de la prueba.
+
+### Seudo Aleatorio
+
+Para esta estrategia usados dos maneras de ejecutar los test 
+
+1. Se lee del API de mockaroo los datos para los diferentes escenarios , luego esto se guardar en un archivo JSON en el directorio de fixture de cypress  y en cada test se van leyendo los datos necesarios para el escenario que se quiere probar .
+2. Se lee del API de mockaroo los datos para todos los escenarios , en este punto se garantiza que los datos van a contener al menos uno de los escenario que se quieren probar (campos vacios,campos llenos , limites inferiores y superiores , naughty string etc ) , se lee posicion por posicion y se ejecutan los test con estos datos.
+
+ ### Aleatorio
+ 
+ Para estos escenarios usamos @faker-js , esta libreria nos permite generar datos aleatorios cada vez que ejecutamos la prueba.
+
 
