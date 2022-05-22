@@ -106,35 +106,39 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 17. post: editar post con título y cuerpo llenos, válido
 18. post: editar post con título lleno y cuerpo vacío, no válido
 19. post: editar post con título vacio y cuerpo lleno, válido
-20. post: editar post programado con título y cuerpo llenos, válido
-21. post: editar post programado con título lleno y cuerpo vacío, no válido
-22. post: editar post programado con título vacio y cuerpo lleno, válido
-23. staff: Invitar nuevo usuario staff.
-24. pagina: crear pagina con título y cuerpo llenos, válido
-25. pagina: crear pagina con título lleno y cuerpo vacío, no válido
-26. pagina: crear pagina con título vacio y cuerpo lleno, válido
-27. pagina: crear pagina programado con título y cuerpo llenos, válido
-28. pagina: crear pagina programado con título lleno y cuerpo vacío, no válido
-29. pagina: crear pagina programado con título vacio y cuerpo lleno, válido
-30. pagina: borrar pagina con título y cuerpo llenos, válido
-31. pagina: borrar pagina con título lleno y cuerpo vacío, no válido
-32. pagina: borrar pagina con título vacio y cuerpo lleno, válido
-33. pagina: borrar pagina programado con título y cuerpo llenos, válido
-34. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
-35. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
-36. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
-37. Configuracion-titulo,descripcion : Ambos campos llenos
-38. configuración-cambiar nomber: campo numérico, válido. 
-39.  configuración-cambiar nomber: caracteres especiales, válido.
-40. configuración-cambiar nomber: campo lleno, válido.<br> 
+20. post: editar post con caracteres numéricos, válido
+21. post: editar post con caracteres especiales, válido
+22. post: editar post programado con título y cuerpo llenos, válido
+23. post: editar post programado con título lleno y cuerpo vacío, no válido
+24. post: editar post programado con título vacio y cuerpo lleno, válido
+25. post: editar post programado con caracteres numéricos, válido
+26. post: editar post programado con caracteres especiales, válido
+27. staff: Invitar nuevo usuario staff.
+28. pagina: crear pagina con título y cuerpo llenos, válido
+29. pagina: crear pagina con título lleno y cuerpo vacío, no válido
+30. pagina: crear pagina con título vacio y cuerpo lleno, válido
+31. pagina: crear pagina programado con título y cuerpo llenos, válido
+32. pagina: crear pagina programado con título lleno y cuerpo vacío, no válido
+33. pagina: crear pagina programado con título vacio y cuerpo lleno, válido
+34. pagina: borrar pagina con título y cuerpo llenos, válido
+35. pagina: borrar pagina con título lleno y cuerpo vacío, no válido
+36. pagina: borrar pagina con título vacio y cuerpo lleno, válido
+37. pagina: borrar pagina programado con título y cuerpo llenos, válido
+38. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
+39. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
+40. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
+41. Configuracion-titulo,descripcion : Ambos campos llenos
+42. configuración-cambiar nomber: campo numérico, válido. 
+43.  configuración-cambiar nomber: caracteres especiales, válido.
+44. configuración-cambiar nomber: campo lleno, válido.<br> 
 <i>Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":</i>
-41. Login: Visita el formulario de login y lo llena con datos inválidos
-42. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
-43. Login: Clic en el botón de autenticar con un formulario vacío
-44. Login: Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real
-45. Login: Visita el formulario de login y llena solo un campo
-46. Login: Visita el formulario de login y lo llena con imágenes
-47. Login: Visita el formulario de login y lo llena caracteres largos
+45. Login: Visita el formulario de login y lo llena con datos inválidos
+46. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
+47. Login: Clic en el botón de autenticar con un formulario vacío
+48. Login: Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real
+49. Login: Visita el formulario de login y llena solo un campo
+50. Login: Visita el formulario de login y lo llena con imágenes
+51. Login: Visita el formulario de login y lo llena caracteres largos
  
 
 
