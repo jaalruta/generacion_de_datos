@@ -148,6 +148,14 @@ Cuando tengamos listos los requisitos podremos clonar el repositorio usando el c
 git clone <URL_REPOSITORIO>
 ```
 
+luego de esto debemos ingresar a la carpeta generada y ejecutar el comando 
+
+```
+npm install
+```
+
+con esto garantizamos la instalacion correcta de las dependencias.
+
 
 ### Inicialización de ghost
 
@@ -185,10 +193,46 @@ Para esta estrategia de pruebas se crearon varias archivos .JSON lo cuales se en
 
 ### Seudo Aleatorio
 
-Para esta estrategia usados dos maneras de ejecutar los test 
+Para esta estrategia usamos el API que no provee mockaroo y generamos dos maneras de ejecutar los diferentes escenarios
 
 1. Se lee del API de mockaroo los datos para los diferentes escenarios , luego esto se guardar en un archivo JSON en el directorio de fixture de cypress  y en cada test se van leyendo los datos necesarios para el escenario que se quiere probar .
-2. Se lee del API de mockaroo los datos para todos los escenarios , en este punto se garantiza que los datos van a contener al menos uno de los escenario que se quieren probar (campos vacios,campos llenos , limites inferiores y superiores , naughty string etc ) , se lee posicion por posicion y se ejecutan los test con estos datos.
+
+Esta es la API que se uso en este escenario 
+
+[https://my.api.mockaroo.com/users.json?key=d0994460](https://my.api.mockaroo.com/users.json?key=d0994460)
+
+
+3. Se lee del API de mockaroo los datos para todos los escenarios , en este punto se garantiza que los datos van a contener al menos uno de los escenario que se quieren probar (campos vacios,campos llenos , limites inferiores y superiores , naughty string etc ) , se lee posicion por posicion y se ejecutan los test con estos datos.
+
+Esta es la API que se uso en este escenario 
+
+[https://my.api.mockaroo.com/users.json?key=d0994460](https://my.api.mockaroo.com/datos1.json?key=0bed1ab0)
+
+para garantizar que se cubren todos los escenarios propuestos se realizo la siguiente configuracion en mockaroo
+
+1. Todos los campos en algun momento van a generar datos vacios
+2. Todos los campos tiene un 10% de probabildad de generar un naugthy string , para esto se uso la formula
+  ```
+  naughty(nombre_campo, 10)
+  ```
+  
+  por ejemplo : 
+  
+  ![Captura de pantalla 2022-05-22 a la(s) 3 58 33 p  m](https://user-images.githubusercontent.com/98671337/169715527-407a6d97-00e5-48ef-bd87-c5ca056c06ef.png)
+
+3. Los campos para pruebas de limite superior tiene entren un 5 a 10 porciento de generar datos , cuando generan datos se usa la formula 
+  ```
+  nombre_campo = "0" * cantidad_caracteres
+  ```
+  
+  por ejemplo: 
+  
+  ![Captura de pantalla 2022-05-22 a la(s) 3 59 15 p  m](https://user-images.githubusercontent.com/98671337/169715563-656a445d-dce0-4a17-b5c6-9ca966b61aac.png)
+
+
+La siguiente es la URL publica de la configuración de mockaroo 
+
+[https://www.mockaroo.com/82c7be70](https://www.mockaroo.com/82c7be70)
 
  ### Aleatorio
  
