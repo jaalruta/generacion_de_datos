@@ -90,36 +90,38 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 1. post: crear post con título y cuerpo llenos, válido
 2. post: crear post con título lleno y cuerpo vacío, no válido
 3. post: crear post con título vacio y cuerpo lleno, válido
-4. post: crear post programado con título y cuerpo llenos, válido
-5. post: crear post programado con título lleno y cuerpo vacío, no válido
-6. post: crear post programado con título vacio y cuerpo lleno, válido
-7. post: borrar post con título y cuerpo llenos, válido
-8. post: borrar post con título lleno y cuerpo vacío, no válido
-9. post: borrar post con título vacio y cuerpo lleno, válido
-10. post: borrar post programado con título y cuerpo llenos, válido
-11. post: borrar post programado con título lleno y cuerpo vacío, no válido
-12. post: borrar post programado con título vacio y cuerpo lleno, válido
-13. post: editar post con título y cuerpo llenos, válido
-14. post: editar post con título lleno y cuerpo vacío, no válido
-15. post: editar post con título vacio y cuerpo lleno, válido
-16. post: editar post programado con título y cuerpo llenos, válido
-17. post: editar post programado con título lleno y cuerpo vacío, no válido
-18. post: editar post programado con título vacio y cuerpo lleno, válido
-19. staff: Invitar nuevo usuario staff.
-20. pagina: crear pagina con título y cuerpo llenos, válido
-21. pagina: crear pagina con título lleno y cuerpo vacío, no válido
-22. pagina: crear pagina con título vacio y cuerpo lleno, válido
-23. pagina: crear pagina programado con título y cuerpo llenos, válido
-24. pagina: crear pagina programado con título lleno y cuerpo vacío, no válido
-25. pagina: crear pagina programado con título vacio y cuerpo lleno, válido
-26. pagina: borrar pagina con título y cuerpo llenos, válido
-27. pagina: borrar pagina con título lleno y cuerpo vacío, no válido
-28. pagina: borrar pagina con título vacio y cuerpo lleno, válido
-29. pagina: borrar pagina programado con título y cuerpo llenos, válido
-30. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
-31. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
-32. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
-33. Configuracion-titulo,descripcion : Ambos campos llenos<br>
+4. post: crear post con campos numéricos, válido
+5. post: crear post programado con título y cuerpo llenos, válido
+6. post: crear post programado con título lleno y cuerpo vacío, no válido
+7. post: crear post programado con título vacio y cuerpo lleno, válido
+8. post: borrar post con título y cuerpo llenos, válido
+9. post: borrar post con título lleno y cuerpo vacío, no válido
+10. post: borrar post con título vacio y cuerpo lleno, válido
+11. post: borrar post programado con título y cuerpo llenos, válido
+12. post: borrar post programado con título lleno y cuerpo vacío, no válido
+13. post: borrar post programado con título vacio y cuerpo lleno, válido
+14. post: editar post con título y cuerpo llenos, válido
+15. post: editar post con título lleno y cuerpo vacío, no válido
+16. post: editar post con título vacio y cuerpo lleno, válido
+17. post: editar post programado con título y cuerpo llenos, válido
+18. post: editar post programado con título lleno y cuerpo vacío, no válido
+19. post: editar post programado con título vacio y cuerpo lleno, válido
+20. staff: Invitar nuevo usuario staff.
+21. pagina: crear pagina con título y cuerpo llenos, válido
+22. pagina: crear pagina con título lleno y cuerpo vacío, no válido
+23. pagina: crear pagina con título vacio y cuerpo lleno, válido
+24. pagina: crear pagina programado con título y cuerpo llenos, válido
+25. pagina: crear pagina programado con título lleno y cuerpo vacío, no válido
+26. pagina: crear pagina programado con título vacio y cuerpo lleno, válido
+27. pagina: borrar pagina con título y cuerpo llenos, válido
+28. pagina: borrar pagina con título lleno y cuerpo vacío, no válido
+29. pagina: borrar pagina con título vacio y cuerpo lleno, válido
+30. pagina: borrar pagina programado con título y cuerpo llenos, válido
+31. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
+32. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
+33. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
+34. Configuracion-titulo,descripcion : Ambos campos llenos<br>
+35. confirguración-cambiar nomber: campo lleno, válido. 
 <i>Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":</i>
 34. Login: Visita el formulario de login y lo llena con datos inválidos
 35. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
