@@ -119,8 +119,8 @@ Los siguientes 13 escenarios estan en el archivo "1_TestPseudoLoginCon13Escenari
 30. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
 31. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
 32. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
-33. Configuracion-titulo,descripcion : Ambos campos llenos
-##Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":
+33. Configuracion-titulo,descripcion : Ambos campos llenos<br>
+Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":
 34. Login: Visita el formulario de login y lo llena con datos inválidos
 35. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
 36. Login: Clic en el botón de autenticar con un formulario vacío
