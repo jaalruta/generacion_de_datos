@@ -72,7 +72,24 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 30. Configuracion-titulo,descripcion : Ambos campos vacios
 
 ### Aleatorias
-
+1. post: crear post con título y cuerpo llenos, válido
+2. post: crear post con título lleno y cuerpo vacío, no válido
+3. post: crear post con título vacio y cuerpo lleno, válido
+4. post: crear post programado con título y cuerpo llenos, válido
+5. post: crear post programado con título lleno y cuerpo vacío, no válido
+6. post: crear post programado con título vacio y cuerpo lleno, válido
+7. post: borrar post con título y cuerpo llenos, válido
+8. post: borrar post con título lleno y cuerpo vacío, no válido
+9. post: borrar post con título vacio y cuerpo lleno, válido
+10. post: borrar post programado con título y cuerpo llenos, válido
+11. post: borrar post programado con título lleno y cuerpo vacío, no válido
+12. post: borrar post programado con título vacio y cuerpo lleno, válido
+13. post: editar post con título y cuerpo llenos, válido
+14. post: editar post con título lleno y cuerpo vacío, no válido
+15. post: editar post con título vacio y cuerpo lleno, válido
+16. post: editar post programado con título y cuerpo llenos, válido
+17. post: editar post programado con título lleno y cuerpo vacío, no válido
+18. post: editar post programado con título vacio y cuerpo lleno, válido
 
 
 
