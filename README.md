@@ -90,6 +90,18 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 16. post: editar post programado con título y cuerpo llenos, válido
 17. post: editar post programado con título lleno y cuerpo vacío, no válido
 18. post: editar post programado con título vacio y cuerpo lleno, válido
+19. staff: Invitar nuevo usuario staff.
+20. pagina: crear pagina con título y cuerpo llenos, válido
+21. post: crear post con título lleno y cuerpo vacío, no válido
+22. post: crear post con título vacio y cuerpo lleno, válido
+23. post: crear post programado con título y cuerpo llenos, válido
+24. post: crear post programado con título lleno y cuerpo vacío, no válido
+25. post: crear post programado con título vacio y cuerpo lleno, válido
+26. post: borrar post con título y cuerpo llenos, válido
+27. post: borrar post con título lleno y cuerpo vacío, no válido
+28. post: borrar post con título vacio y cuerpo lleno, válido
+29. post: borrar post programado con título y cuerpo llenos, válido
+30. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
 
 
 
