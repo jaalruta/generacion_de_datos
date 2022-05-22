@@ -67,9 +67,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 25. members : Correo con valor valido ,label con valor valido ,nota con valor valido 
 26. members : Nombre con valor valido, correo con valor valido ,label con valor valido , nota con valor valido
 27. members : Nombre con valor no valido, correo con valor  no valido,label con valor no valido, nota con valor no valido
-28. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
-29.Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
-30. Configuracion-titulo,descripcion : Ambos campos vacios
+
 
 ### Aleatorias
 1. post: crear post con título y cuerpo llenos, válido
@@ -102,7 +100,9 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 28. pagina: borrar pagina con título vacio y cuerpo lleno, válido
 29. pagina: borrar pagina programado con título y cuerpo llenos, válido
 30. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
-
+31. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
+32. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
+33. Configuracion-titulo,descripcion : Ambos campos vacios
 
 
 
