@@ -103,6 +103,8 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 31. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
 32. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
 33. Configuracion-titulo,descripcion : Ambos campos llenos
+34. Configuración-cambiar nombre : Campos llenos, válido
+35. Configuración-cambiar nombre : Campo vacio, válido
 
 
 
