@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jaalruta/generacion_de_datos#readme",
   "dependencies": {
     "cypress": "^9.6.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1"
   }
 }
