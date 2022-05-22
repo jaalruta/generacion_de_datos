@@ -95,42 +95,44 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 6. post: crear post programado con título y cuerpo llenos, válido
 7. post: crear post programado con título lleno y cuerpo vacío, no válido
 8. post: crear post programado con título vacio y cuerpo lleno, válido
-9. post: borrar post con título y cuerpo llenos, válido
-10. post: borrar post con título lleno y cuerpo vacío, no válido
-11. post: borrar post con título vacio y cuerpo lleno, válido
-12. post: borrar post programado con título y cuerpo llenos, válido
-13. post: borrar post programado con título lleno y cuerpo vacío, no válido
-14. post: borrar post programado con título vacio y cuerpo lleno, válido
-15. post: editar post con título y cuerpo llenos, válido
-16. post: editar post con título lleno y cuerpo vacío, no válido
-17. post: editar post con título vacio y cuerpo lleno, válido
-18. post: editar post programado con título y cuerpo llenos, válido
-19. post: editar post programado con título lleno y cuerpo vacío, no válido
-20. post: editar post programado con título vacio y cuerpo lleno, válido
-21. staff: Invitar nuevo usuario staff.
-22. pagina: crear pagina con título y cuerpo llenos, válido
-23. pagina: crear pagina con título lleno y cuerpo vacío, no válido
-24. pagina: crear pagina con título vacio y cuerpo lleno, válido
-25. pagina: crear pagina programado con título y cuerpo llenos, válido
-26. pagina: crear pagina programado con título lleno y cuerpo vacío, no válido
-27. pagina: crear pagina programado con título vacio y cuerpo lleno, válido
-28. pagina: borrar pagina con título y cuerpo llenos, válido
-29. pagina: borrar pagina con título lleno y cuerpo vacío, no válido
-30. pagina: borrar pagina con título vacio y cuerpo lleno, válido
-31. pagina: borrar pagina programado con título y cuerpo llenos, válido
-32. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
-33. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
-34. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
-35. Configuracion-titulo,descripcion : Ambos campos llenos<br>
-36. configuración-cambiar nomber: campo lleno, válido. 
+9. post: crear post programado con campos numéricos, válido
+10. post: crear post programado con caracteres especiales, válido
+11. post: borrar post con título y cuerpo llenos, válido
+12. post: borrar post con título lleno y cuerpo vacío, no válido
+13. post: borrar post con título vacio y cuerpo lleno, válido
+14. post: borrar post programado con título y cuerpo llenos, válido
+15. post: borrar post programado con título lleno y cuerpo vacío, no válido
+16. post: borrar post programado con título vacio y cuerpo lleno, válido
+17. post: editar post con título y cuerpo llenos, válido
+18. post: editar post con título lleno y cuerpo vacío, no válido
+19. post: editar post con título vacio y cuerpo lleno, válido
+20. post: editar post programado con título y cuerpo llenos, válido
+21. post: editar post programado con título lleno y cuerpo vacío, no válido
+22. post: editar post programado con título vacio y cuerpo lleno, válido
+23. staff: Invitar nuevo usuario staff.
+24. pagina: crear pagina con título y cuerpo llenos, válido
+25. pagina: crear pagina con título lleno y cuerpo vacío, no válido
+26. pagina: crear pagina con título vacio y cuerpo lleno, válido
+27. pagina: crear pagina programado con título y cuerpo llenos, válido
+28. pagina: crear pagina programado con título lleno y cuerpo vacío, no válido
+29. pagina: crear pagina programado con título vacio y cuerpo lleno, válido
+30. pagina: borrar pagina con título y cuerpo llenos, válido
+31. pagina: borrar pagina con título lleno y cuerpo vacío, no válido
+32. pagina: borrar pagina con título vacio y cuerpo lleno, válido
+33. pagina: borrar pagina programado con título y cuerpo llenos, válido
+34. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
+35. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
+36. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
+37. Configuracion-titulo,descripcion : Ambos campos llenos<br>
+38. configuración-cambiar nomber: campo lleno, válido. 
 <i>Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":</i>
-37. Login: Visita el formulario de login y lo llena con datos inválidos
-38. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
-39. Login: Clic en el botón de autenticar con un formulario vacío
-40. Login: Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real
-41. Login: Visita el formulario de login y llena solo un campo
-42. Login: Visita el formulario de login y lo llena con imágenes
-43. Login: Visita el formulario de login y lo llena caracteres largos
+39. Login: Visita el formulario de login y lo llena con datos inválidos
+40. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
+41. Login: Clic en el botón de autenticar con un formulario vacío
+42. Login: Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real
+43. Login: Visita el formulario de login y llena solo un campo
+44. Login: Visita el formulario de login y lo llena con imágenes
+45. Login: Visita el formulario de login y lo llena caracteres largos
  
 
 
