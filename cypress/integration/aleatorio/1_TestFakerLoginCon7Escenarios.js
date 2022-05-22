@@ -1,7 +1,7 @@
 import {faker} from '@faker-js/faker'
 
 describe( `Llenando formulario login con datos inválidos`, function() {
-    it(`1. Visita el formulario de login y lo llena con datos inválidos`, function() { 
+    it(`34. Visita el formulario de login y lo llena con datos inválidos`, function() { 
         cy.visit('http://localhost:2368/ghost/#/signin')
         cy.get('#ember7').scrollIntoView().focus().type(faker.name.firstName())
         cy.get('#ember9').scrollIntoView().focus().type(faker.name.firstName())
@@ -11,7 +11,7 @@ describe( `Llenando formulario login con datos inválidos`, function() {
         })
     })
 
-    it(`2. Visita el formulario de login y lo llena con datos del formato esperado
+    it(`35. Visita el formulario de login y lo llena con datos del formato esperado
     pero que no corresponden a un usuarios real`, function() { 
         cy.visit('http://localhost:2368/ghost/#/signin')
         cy.get('#ember7').scrollIntoView().focus().type(faker.internet.email())
@@ -22,7 +22,7 @@ describe( `Llenando formulario login con datos inválidos`, function() {
         })
     })
 
-    it(`3. Clic en el botón de autenticar con un formulario vacío.`, function() { 
+    it(`36. Clic en el botón de autenticar con un formulario vacío.`, function() { 
         cy.visit('http://localhost:2368/ghost/#/signin')
         cy.get('#ember11').click()
         cy.get('p').should(($p) => {
@@ -30,8 +30,7 @@ describe( `Llenando formulario login con datos inválidos`, function() {
         })
     })
 
-    it(`4. Visita el formulario de login y lo llena con datos del formato esperado
-    pero que no corresponden a un usuarios real`, function() { 
+    it(`37. Visita el formulario de login y lo llena con datos pero que no corresponden a un usuarios real`, function() { 
         cy.visit('http://localhost:2368/ghost/#/signin')
         cy.get('#ember7').scrollIntoView().focus().type(faker.internet.email())
         cy.get('#ember9').scrollIntoView().focus().type(faker.internet.password())
@@ -41,7 +40,7 @@ describe( `Llenando formulario login con datos inválidos`, function() {
         })
     })
 
-    it(`5. Visita el formulario de login y llena solo un campo`, function() { 
+    it(`38. Visita el formulario de login y llena solo un campo`, function() { 
         cy.visit('http://localhost:2368/ghost/#/signin')
         cy.get('#ember7').scrollIntoView().focus().type(faker.helpers.randomize())
         cy.get('#ember11').click()
@@ -50,7 +49,7 @@ describe( `Llenando formulario login con datos inválidos`, function() {
         })
     })
 
-    it(`6. Visita el formulario de login y lo llena con imágenes`, function() { 
+    it(`39. Visita el formulario de login y lo llena con imágenes`, function() { 
         cy.visit('http://localhost:2368/ghost/#/signin')
         cy.get('#ember7').scrollIntoView().focus().type(faker.image.avatar())
         cy.get('#ember9').scrollIntoView().focus().type(faker.image.dataUri())
@@ -60,7 +59,7 @@ describe( `Llenando formulario login con datos inválidos`, function() {
         })
     })
 
-    it(`7. Visita el formulario de login y lo llena caracteres largos`, function() { 
+    it(`40. Visita el formulario de login y lo llena caracteres largos`, function() { 
       cy.visit('http://localhost:2368/ghost/#/signin')
       cy.get('#ember7').scrollIntoView().focus().type(faker.lorem.paragraph())
       cy.get('#ember9').scrollIntoView().focus().type(faker.lorem.paragraph())
