@@ -40,7 +40,36 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 
 
 ### Seudo aleatorias
-
+1. members : Nombre con valor valido , demas campos vacios
+2. members : Email con valor valido , demas campos vacios
+3. members : Label con valor valido, demas campos vacios
+4. members : Nota con valor valido, demas campos vacios
+5. members : Nombre con valor valido ,correo con valor valido, demas campos vacios
+6. members : Nombre con valor valido,Label con valor valido, demas campos vacios
+7. members : Nombre con valor valido,nota con valor valido, demas campos vacios
+8. members : Email con valor valido,Label con valor valido, demas campos vacios
+9. members : Email con valor valido,nota con valor valido, demas campos vacios
+10. members : Label con valor valido,Nota con valor valido, demas campos vacios
+11. members : Limite inferior nombre
+12. members : Limite superior nombre
+13. members : Limite inferior email
+14. members : Limite superior email
+15. members : Limite inferior label
+16 .members : Limite superior label
+17. members : Limite inferior Nota
+18. members : Limite superior Nota
+19. members : Email con formato no valido,demas campos llenos
+20. members : Nombre con caracteres especiales,demas campos llenos
+21. members : Notas con caracteres especiales,demas campos llenos
+22. members : Labels con caracteres especiales,demas campos llenos
+23. members : Nombre con valor valido, correo con valor valido ,label con valor valido 
+24. members : Nombre con valor valido, correo con valor valido ,nota con valor valido 
+25. members : Correo con valor valido ,label con valor valido ,nota con valor valido 
+26. members : Nombre con valor valido, correo con valor valido ,label con valor valido , nota con valor valido
+27. members : Nombre con valor no valido, correo con valor  no valido,label con valor no valido, nota con valor no valido
+28. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
+29.Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
+30. Configuracion-titulo,descripcion : Ambos campos vacios
 
 ### Aleatorias
 
