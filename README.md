@@ -158,7 +158,8 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 67. Pagina: Crear pagina programada con un avatar en la descripcion, válido
 68. Staff: Editar staff con palabras aleatorias en la bio, valido
 69. Staff: Editar url del staff, valido
- 
+70. Configuración : Cambiar nombre administador vacio 
+71. Configuración : Cambiar nombre administador aleatorio
 
 
 
