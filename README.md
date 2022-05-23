@@ -113,7 +113,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 24. post: editar post programado con título vacio y cuerpo lleno, válido
 25. post: editar post programado con caracteres numéricos, válido
 26. post: editar post programado con caracteres especiales, válido
-27. staff: Invitar nuevo usuario staff.
+27. staff: Invitar nuevo usuario staff, valido
 28. pagina: crear pagina con título y cuerpo llenos, válido
 29. pagina: crear pagina con título lleno y cuerpo vacío, no válido
 30. pagina: crear pagina con título vacio y cuerpo lleno, válido
@@ -124,7 +124,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 35. pagina: borrar pagina con título lleno y cuerpo vacío, no válido
 36. pagina: borrar pagina con título vacio y cuerpo lleno, válido
 37. pagina: borrar pagina programado con título y cuerpo llenos, válido
-38. pagina: editar pagina programada con título lleno y cuerpo vacío, no válido
+38. pagina: editar pagina con título lleno y cuerpo, válido
 39. Configuracion-titulo,descripcion : Titulo Vacio  , descripcion llena
 40. Configuracion-titulo,descripcion : Titulo Lleno  , descripcion vacia
 41. Configuracion-titulo,descripcion : Ambos campos llenos
@@ -139,6 +139,25 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 49. Login: Visita el formulario de login y llena solo un campo
 50. Login: Visita el formulario de login y lo llena con imágenes
 51. Login: Visita el formulario de login y lo llena caracteres largos
+52. Pagina: Borrar pagina programada con titulo y sin descripción, no válido
+53. Pagina: Borrar pagina programada sin titulo y con descripción, válido
+54. Pagina: Editar pagina con titulo y sin descripción, no válido
+55. Pagina: Editar pagina sin titulo y con descripción, válido
+56. Pagina: Editar pagina programada con titulo y con descripción, válido
+57. Pagina: Editar pagina programada con titulo y sin descripción, no válido
+58. Pagina: Editar pagina programada sin titulo y con descripción, válido
+59. Pagina: Crear pagina con datos numericos, válido
+60. Pagina: Crear pagina con caracteres especiales, válido
+61. Pagina: Editar pagina con datos numericos, válido
+62. Pagina: Editar pagina con caracteres especiales, válido
+63. Staff: Invitar staff con email aleatorio, valido
+64. Staff: Invitar staff con caracteres especiales en el email, valido
+65. Staff: Invitar staff con caracteres numericos en el email, valido
+66. Pagina: Crear pagina con emoji en la descripcion, válido
+67. Pagina: Crear pagina programada con un avatar en la descripcion, válido
+68. Staff: Editar staff con palabras aleatorias en la bio, valido
+69. Staff: Editar url del staff, valido
+70. Staff: Editar ubicacion en staff , valid
  
 
 
