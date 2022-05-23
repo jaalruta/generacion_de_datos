@@ -57,7 +57,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 13. members : Limite inferior email
 14. members : Limite superior email
 15. members : Limite inferior label
-16 .members : Limite superior label
+16. members : Limite superior label
 17. members : Limite inferior Nota
 18. members : Limite superior Nota
 19. members : Email con formato no valido,demas campos llenos
