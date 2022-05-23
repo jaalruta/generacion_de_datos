@@ -114,7 +114,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 24. post: editar post programado con título vacio y cuerpo lleno, válido
 25. post: editar post programado con caracteres numéricos, válido
 26. post: editar post programado con caracteres especiales, válido
-27. staff: Invitar nuevo usuario staff, valido
+27. staff: Invitar staff con email aleatorio, valido
 28. pagina: crear pagina con título y cuerpo llenos, válido
 29. pagina: crear pagina con título lleno y cuerpo vacío, no válido
 30. pagina: crear pagina con título vacio y cuerpo lleno, válido
@@ -151,14 +151,13 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 60. Pagina: Crear pagina con caracteres especiales, válido
 61. Pagina: Editar pagina con datos numericos, válido
 62. Pagina: Editar pagina con caracteres especiales, válido
-63. Staff: Invitar staff con email aleatorio, valido
+63. Staff: Editar ubicacion en staff , valido
 64. Staff: Invitar staff con caracteres especiales en el email, valido
 65. Staff: Invitar staff con caracteres numericos en el email, valido
 66. Pagina: Crear pagina con emoji en la descripcion, válido
 67. Pagina: Crear pagina programada con un avatar en la descripcion, válido
 68. Staff: Editar staff con palabras aleatorias en la bio, valido
 69. Staff: Editar url del staff, valido
-70. Staff: Editar ubicacion en staff , valid
  
 
 
