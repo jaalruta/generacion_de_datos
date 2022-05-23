@@ -42,6 +42,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 
 
 ### Seudo aleatorias
+<i>Los siguientes 27 escenarios estan en el archivo "members.spec.js" y se generan a partir del API de mockaroo:</i>
 1. members : Nombre con valor valido , demas campos vacios
 2. members : Email con valor valido , demas campos vacios
 3. members : Label con valor valido, demas campos vacios
