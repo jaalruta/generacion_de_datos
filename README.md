@@ -70,7 +70,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 25. members : Correo con valor valido ,label con valor valido ,nota con valor valido 
 26. members : Nombre con valor valido, correo con valor valido ,label con valor valido , nota con valor valido
 27. members : Nombre con valor no valido, correo con valor  no valido,label con valor no valido, nota con valor no valido <br>
-<i>Los siguientes 13 escenarios estan en el archivo "1_TestPseudoLoginCon13Escenarios.spec.js":</i>
+<i>Los siguientes 13 escenarios de Login estan en el archivo "1_TestPseudoLoginCon13Escenarios.spec.js":</i>
 28. Login: Intento de login inválido, con usuario y contraseña aleatoria - datetime
 29. Login: Intento de login inválido, con usuario y contraseña aleatoria - base64
 30. Login: Intento de login inválido, con usuario email aleatorio y contraseña pass aleatoria
@@ -132,7 +132,7 @@ A continuación se listan los escenarios generados los cuales usan varias funcio
 42. configuración-cambiar nomber: campo numérico, válido. 
 43.  configuración-cambiar nomber: caracteres especiales, válido.
 44. configuración-cambiar nomber: campo lleno, válido.<br> 
-<i>Los siguientes 7 escenarios estan en el archivo "1_TestFakerLoginCon7Escenarios.js":</i>
+<i>Los siguientes 7 escenarios de Login estan en el archivo "1_TestFakerLoginCon7Escenarios.js":</i>
 45. Login: Visita el formulario de login y lo llena con datos inválidos
 46. Login: Visita el formulario de login y lo llena con datos del formato esperado pero que no corresponden a un usuarios real
 47. Login: Clic en el botón de autenticar con un formulario vacío
